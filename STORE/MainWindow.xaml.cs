@@ -46,7 +46,7 @@ namespace STORE
         public void onPriceUpdated(double subTotal, double total, double promo)
         {
             labelSubTotal.Content = "Rp " + subTotal;
-            labelPromo.Content = "Rp" + (total - subTotal);
+            labelPromo.Content = "Rp " + (total - subTotal);
             labelTotal.Content = "Rp " + total;
         }
 
@@ -96,10 +96,9 @@ namespace STORE
             Promo promo = new Promo();
             promo.SetOnPromoSelectedListener(this);
             promo.Show();
-
         }
 
-        public void OnPromoSelected()
+        public void OnPromoSelected(Diskon diskon)
         {
             controller.addDiskon(diskon);
         }
@@ -110,5 +109,6 @@ namespace STORE
             labelPromo.Content = 0;
             labelTotal.Content = 0;
         }
+
     }
 }
