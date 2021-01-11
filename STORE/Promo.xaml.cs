@@ -52,7 +52,7 @@ namespace STORE
         {
             ListBox listbox = sender as ListBox;
             Diskon diskon = listbox.SelectedItem as Diskon;
-            this.promoListener.OnPromoSelected();
+            this.promoListener.OnPromoSelected(diskon);
         }
     }
 

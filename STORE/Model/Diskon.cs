@@ -5,7 +5,7 @@ using System.Text;
 
 namespace STORE.Model
 {
-    class Diskon
+    public class Diskon
     {
         public string diskon { get; set; }
         public double potongan { get; set; }
