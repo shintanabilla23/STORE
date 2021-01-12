@@ -1,4 +1,8 @@
-﻿## STORE SHINTA
+﻿NAMA : SHINTA NABILLA EMI HAYU SETYAWAN
+
+NIM  : 19.11.2821
+
+## STORE SHINTA
 Aplikasi ini digunakan untuk membeli sebuah makanan dengan menerapkan MVC.
 
 ### SCOPE & FUNCTIONALITIES
